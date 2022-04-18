@@ -3,6 +3,7 @@ import Jerry from '../../assets/images/gingerbread-letter-j.png'
 import { Link } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import AnimatedLetters from '../AnimatedLetters';
+import Logo from '../Logo';
 
 const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate');
@@ -34,6 +35,7 @@ const Home = () => {
                 <h2>Full-stack Developer | JavaScript lover</h2>
                 <Link to="/contact" className='flat-button'>Contact Me</Link>
             </div>
+            <Logo />
         </div>
     )
 };
