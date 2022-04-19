@@ -57,6 +57,7 @@ const About = () => {
             </div>
           </div>
         </div>
+        <Loader type='pacman' />
         </div>
     )
 }
